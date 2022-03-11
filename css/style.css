@@ -1,3 +1,22 @@
 .center {
   text-align: center;
 }
+
+.display {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.grid-container {
+  padding: 50px;
+  width: 250px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-item {
+  padding: 10px;
+}
